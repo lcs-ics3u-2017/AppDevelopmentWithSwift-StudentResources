@@ -42,6 +42,21 @@
 		0EE4DB5E1FD5CDF8002A7494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EE4DB5F1FD5CDF8002A7494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0EE4DB601FD5CDF8002A7494 /* FirstTimeDebugging.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FirstTimeDebugging.xcodeproj; sourceTree = "<group>"; };
+		0EE4DB691FD5CEC6002A7494 /* Lab - Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Optionals.playground"; sourceTree = "<group>"; };
+		0EE4DB6C1FD5CEC6002A7494 /* Lab - Type Casting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Type Casting.playground"; sourceTree = "<group>"; };
+		0EE4DB6F1FD5CEC6002A7494 /* Lab - Guard.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Guard.playground"; sourceTree = "<group>"; };
+		0EE4DB721FD5CEC6002A7494 /* Lab - Scope.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Scope.playground"; sourceTree = "<group>"; };
+		0EE4DB751FD5CEC6002A7494 /* Lab - Enumerations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Enumerations.playground"; sourceTree = "<group>"; };
+		0EE4DB771FD5CEC6002A7494 /* B Selected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "B Selected.pdf"; sourceTree = "<group>"; };
+		0EE4DB781FD5CEC6002A7494 /* B.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = B.pdf; sourceTree = "<group>"; };
+		0EE4DB791FD5CEC6002A7494 /* G Selected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "G Selected.pdf"; sourceTree = "<group>"; };
+		0EE4DB7A1FD5CEC6002A7494 /* G.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = G.pdf; sourceTree = "<group>"; };
+		0EE4DB7B1FD5CEC6002A7494 /* O Selected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "O Selected.pdf"; sourceTree = "<group>"; };
+		0EE4DB7C1FD5CEC6002A7494 /* O.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = O.pdf; sourceTree = "<group>"; };
+		0EE4DB7D1FD5CEC6002A7494 /* R Selected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "R Selected.pdf"; sourceTree = "<group>"; };
+		0EE4DB7E1FD5CEC6002A7494 /* R.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = R.pdf; sourceTree = "<group>"; };
+		0EE4DB7F1FD5CEC6002A7494 /* Y Selected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Y Selected.pdf"; sourceTree = "<group>"; };
+		0EE4DB801FD5CEC6002A7494 /* Y.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Y.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -50,6 +65,7 @@
 			children = (
 				0EE4DB471FD5CDF8002A7494 /* 1 - Getting Started */,
 				0EE4DB2B1FD5CDD7002A7494 /* 2 - Introduction to UIKit */,
+				0EE4DB661FD5CEC6002A7494 /* 3 - Navigation and Workflows */,
 			);
 			sourceTree = "<group>";
 		};
@@ -298,6 +314,116 @@
 				0EE4DB651FD5CDF8002A7494 /* FirstTimeDebugging.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0EE4DB661FD5CEC6002A7494 /* 3 - Navigation and Workflows */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB671FD5CEC6002A7494 /* 1 - Optionals */,
+				0EE4DB6A1FD5CEC6002A7494 /* 2 - Type Casting */,
+				0EE4DB6D1FD5CEC6002A7494 /* 3 - Guard */,
+				0EE4DB701FD5CEC6002A7494 /* 4 - Scope */,
+				0EE4DB731FD5CEC6002A7494 /* 5 - Enumerations */,
+				0EE4DB761FD5CEC6002A7494 /* 7 - Tab Bar Controllers */,
+			);
+			path = "3 - Navigation and Workflows";
+			sourceTree = "<group>";
+		};
+		0EE4DB671FD5CEC6002A7494 /* 1 - Optionals */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB681FD5CEC6002A7494 /* lab */,
+			);
+			path = "1 - Optionals";
+			sourceTree = "<group>";
+		};
+		0EE4DB681FD5CEC6002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB691FD5CEC6002A7494 /* Lab - Optionals.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB6A1FD5CEC6002A7494 /* 2 - Type Casting */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB6B1FD5CEC6002A7494 /* lab */,
+			);
+			path = "2 - Type Casting";
+			sourceTree = "<group>";
+		};
+		0EE4DB6B1FD5CEC6002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB6C1FD5CEC6002A7494 /* Lab - Type Casting.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB6D1FD5CEC6002A7494 /* 3 - Guard */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB6E1FD5CEC6002A7494 /* lab */,
+			);
+			path = "3 - Guard";
+			sourceTree = "<group>";
+		};
+		0EE4DB6E1FD5CEC6002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB6F1FD5CEC6002A7494 /* Lab - Guard.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB701FD5CEC6002A7494 /* 4 - Scope */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB711FD5CEC6002A7494 /* lab */,
+			);
+			path = "4 - Scope";
+			sourceTree = "<group>";
+		};
+		0EE4DB711FD5CEC6002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB721FD5CEC6002A7494 /* Lab - Scope.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB731FD5CEC6002A7494 /* 5 - Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB741FD5CEC6002A7494 /* lab */,
+			);
+			path = "5 - Enumerations";
+			sourceTree = "<group>";
+		};
+		0EE4DB741FD5CEC6002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB751FD5CEC6002A7494 /* Lab - Enumerations.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB761FD5CEC6002A7494 /* 7 - Tab Bar Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB771FD5CEC6002A7494 /* B Selected.pdf */,
+				0EE4DB781FD5CEC6002A7494 /* B.pdf */,
+				0EE4DB791FD5CEC6002A7494 /* G Selected.pdf */,
+				0EE4DB7A1FD5CEC6002A7494 /* G.pdf */,
+				0EE4DB7B1FD5CEC6002A7494 /* O Selected.pdf */,
+				0EE4DB7C1FD5CEC6002A7494 /* O.pdf */,
+				0EE4DB7D1FD5CEC6002A7494 /* R Selected.pdf */,
+				0EE4DB7E1FD5CEC6002A7494 /* R.pdf */,
+				0EE4DB7F1FD5CEC6002A7494 /* Y Selected.pdf */,
+				0EE4DB801FD5CEC6002A7494 /* Y.pdf */,
+			);
+			path = "7 - Tab Bar Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
