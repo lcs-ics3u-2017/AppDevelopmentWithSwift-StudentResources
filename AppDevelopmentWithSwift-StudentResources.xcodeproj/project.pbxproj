@@ -6,6 +6,16 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		0EE4DB641FD5CDF8002A7494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EE4DB601FD5CDF8002A7494 /* FirstTimeDebugging.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A913CDC81E290CFE009D825C;
+			remoteInfo = FirstTimeDebugging;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0EE4DB2E1FD5CDD7002A7494 /* Lab - Strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Strings.playground"; sourceTree = "<group>"; };
 		0EE4DB311FD5CDD7002A7494 /* Lab - Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Functions.playground"; sourceTree = "<group>"; };
@@ -21,12 +31,24 @@
 		0EE4DB441FD5CDD7002A7494 /* Tree 5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tree 5.pdf"; sourceTree = "<group>"; };
 		0EE4DB451FD5CDD7002A7494 /* Tree 6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tree 6.pdf"; sourceTree = "<group>"; };
 		0EE4DB461FD5CDD7002A7494 /* Tree 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tree 7.pdf"; sourceTree = "<group>"; };
+		0EE4DB4A1FD5CDF8002A7494 /* Lab - Introduction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Introduction.playground"; sourceTree = "<group>"; };
+		0EE4DB4D1FD5CDF8002A7494 /* Lab - Constants and Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Constants and Variables.playground"; sourceTree = "<group>"; };
+		0EE4DB501FD5CDF8002A7494 /* Lab - Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Operators.playground"; sourceTree = "<group>"; };
+		0EE4DB531FD5CDF8002A7494 /* Lab - Control Flow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Control Flow.playground"; sourceTree = "<group>"; };
+		0EE4DB581FD5CDF8002A7494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EE4DB591FD5CDF8002A7494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EE4DB5B1FD5CDF8002A7494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EE4DB5D1FD5CDF8002A7494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EE4DB5E1FD5CDF8002A7494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE4DB5F1FD5CDF8002A7494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EE4DB601FD5CDF8002A7494 /* FirstTimeDebugging.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FirstTimeDebugging.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		0E14910E1FD5CCFF00A0DF16 = {
 			isa = PBXGroup;
 			children = (
+				0EE4DB471FD5CDF8002A7494 /* 1 - Getting Started */,
 				0EE4DB2B1FD5CDD7002A7494 /* 2 - Introduction to UIKit */,
 			);
 			sourceTree = "<group>";
@@ -156,6 +178,128 @@
 			path = "Guided Project - Apple Pie";
 			sourceTree = "<group>";
 		};
+		0EE4DB471FD5CDF8002A7494 /* 1 - Getting Started */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB481FD5CDF8002A7494 /* 1 - Introduction to Swift and Playgrounds */,
+				0EE4DB4B1FD5CDF8002A7494 /* 2 - Constants, Variables, and Data Types */,
+				0EE4DB4E1FD5CDF8002A7494 /* 3 - Operators */,
+				0EE4DB511FD5CDF8002A7494 /* 4 - Control Flow */,
+				0EE4DB541FD5CDF8002A7494 /* 6 - Debugging */,
+			);
+			path = "1 - Getting Started";
+			sourceTree = "<group>";
+		};
+		0EE4DB481FD5CDF8002A7494 /* 1 - Introduction to Swift and Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB491FD5CDF8002A7494 /* lab */,
+			);
+			path = "1 - Introduction to Swift and Playgrounds";
+			sourceTree = "<group>";
+		};
+		0EE4DB491FD5CDF8002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB4A1FD5CDF8002A7494 /* Lab - Introduction.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB4B1FD5CDF8002A7494 /* 2 - Constants, Variables, and Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB4C1FD5CDF8002A7494 /* lab */,
+			);
+			path = "2 - Constants, Variables, and Data Types";
+			sourceTree = "<group>";
+		};
+		0EE4DB4C1FD5CDF8002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB4D1FD5CDF8002A7494 /* Lab - Constants and Variables.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB4E1FD5CDF8002A7494 /* 3 - Operators */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB4F1FD5CDF8002A7494 /* lab */,
+			);
+			path = "3 - Operators";
+			sourceTree = "<group>";
+		};
+		0EE4DB4F1FD5CDF8002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB501FD5CDF8002A7494 /* Lab - Operators.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB511FD5CDF8002A7494 /* 4 - Control Flow */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB521FD5CDF8002A7494 /* lab */,
+			);
+			path = "4 - Control Flow";
+			sourceTree = "<group>";
+		};
+		0EE4DB521FD5CDF8002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB531FD5CDF8002A7494 /* Lab - Control Flow.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB541FD5CDF8002A7494 /* 6 - Debugging */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB551FD5CDF8002A7494 /* lab */,
+			);
+			path = "6 - Debugging";
+			sourceTree = "<group>";
+		};
+		0EE4DB551FD5CDF8002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB561FD5CDF8002A7494 /* FirstTimeDebugging */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB561FD5CDF8002A7494 /* FirstTimeDebugging */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB571FD5CDF8002A7494 /* FirstTimeDebugging */,
+				0EE4DB601FD5CDF8002A7494 /* FirstTimeDebugging.xcodeproj */,
+			);
+			path = FirstTimeDebugging;
+			sourceTree = "<group>";
+		};
+		0EE4DB571FD5CDF8002A7494 /* FirstTimeDebugging */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB581FD5CDF8002A7494 /* AppDelegate.swift */,
+				0EE4DB591FD5CDF8002A7494 /* Assets.xcassets */,
+				0EE4DB5A1FD5CDF8002A7494 /* LaunchScreen.storyboard */,
+				0EE4DB5C1FD5CDF8002A7494 /* Main.storyboard */,
+				0EE4DB5E1FD5CDF8002A7494 /* Info.plist */,
+				0EE4DB5F1FD5CDF8002A7494 /* ViewController.swift */,
+			);
+			path = FirstTimeDebugging;
+			sourceTree = "<group>";
+		};
+		0EE4DB611FD5CDF8002A7494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB651FD5CDF8002A7494 /* FirstTimeDebugging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
@@ -172,15 +316,51 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0E14910E1FD5CCFF00A0DF16;
 			productRefGroup = 0E14910E1FD5CCFF00A0DF16;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0EE4DB611FD5CDF8002A7494 /* Products */;
+					ProjectRef = 0EE4DB601FD5CDF8002A7494 /* FirstTimeDebugging.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0EE4DB651FD5CDF8002A7494 /* FirstTimeDebugging.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FirstTimeDebugging.app;
+			remoteRef = 0EE4DB641FD5CDF8002A7494 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXVariantGroup section */
+		0EE4DB5A1FD5CDF8002A7494 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE4DB5B1FD5CDF8002A7494 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0EE4DB5C1FD5CDF8002A7494 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE4DB5D1FD5CDF8002A7494 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0E14911C1FD5CCFF00A0DF16 /* Debug */ = {
