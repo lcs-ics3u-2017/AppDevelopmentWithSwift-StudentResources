@@ -49,6 +49,13 @@
 			remoteGlobalIDString = 2C5E3E641E51637A00C02C5F;
 			remoteInfo = HomeFurniture;
 		};
+		0EE4DC871FD5CFE6002A7494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EE4DC801FD5CFE6002A7494 /* iTunesSearch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6881F3AF1E66032600E14215;
+			remoteInfo = iTunesSearch;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +147,30 @@
 		0EE4DC461FD5CFCB002A7494 /* EmployeeRoster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = EmployeeRoster.xcodeproj; sourceTree = "<group>"; };
 		0EE4DC4A1FD5CFCC002A7494 /* Checked.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Checked.pdf; sourceTree = "<group>"; };
 		0EE4DC4B1FD5CFCC002A7494 /* Unchecked.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Unchecked.pdf; sourceTree = "<group>"; };
+		0EE4DC5F1FD5CFE5002A7494 /* Lab - Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Closures.playground"; sourceTree = "<group>"; };
+		0EE4DC621FD5CFE6002A7494 /* Lab - Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Extensions.playground"; sourceTree = "<group>"; };
+		0EE4DC651FD5CFE6002A7494 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		0EE4DC661FD5CFE6002A7494 /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
+		0EE4DC671FD5CFE6002A7494 /* forward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@3x.png"; sourceTree = "<group>"; };
+		0EE4DC681FD5CFE6002A7494 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		0EE4DC691FD5CFE6002A7494 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		0EE4DC6A1FD5CFE6002A7494 /* pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@3x.png"; sourceTree = "<group>"; };
+		0EE4DC6B1FD5CFE6002A7494 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		0EE4DC6C1FD5CFE6002A7494 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		0EE4DC6D1FD5CFE6002A7494 /* play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@3x.png"; sourceTree = "<group>"; };
+		0EE4DC6E1FD5CFE6002A7494 /* reverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reverse.png; sourceTree = "<group>"; };
+		0EE4DC6F1FD5CFE6002A7494 /* reverse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reverse@2x.png"; sourceTree = "<group>"; };
+		0EE4DC701FD5CFE6002A7494 /* reverse@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reverse@3x.png"; sourceTree = "<group>"; };
+		0EE4DC731FD5CFE6002A7494 /* iTunesSearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = iTunesSearch.playground; sourceTree = "<group>"; };
+		0EE4DC781FD5CFE6002A7494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EE4DC791FD5CFE6002A7494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EE4DC7B1FD5CFE6002A7494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EE4DC7C1FD5CFE6002A7494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE4DC7D1FD5CFE6002A7494 /* iTunesSearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = iTunesSearch.playground; sourceTree = "<group>"; };
+		0EE4DC7E1FD5CFE6002A7494 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0EE4DC7F1FD5CFE6002A7494 /* StoreItemListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemListTableViewController.swift; sourceTree = "<group>"; };
+		0EE4DC801FD5CFE6002A7494 /* iTunesSearch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = iTunesSearch.xcodeproj; sourceTree = "<group>"; };
+		0EE4DC851FD5CFE6002A7494 /* OpenRestaurant.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = OpenRestaurant.app; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -150,6 +181,7 @@
 				0EE4DB2B1FD5CDD7002A7494 /* 2 - Introduction to UIKit */,
 				0EE4DB661FD5CEC6002A7494 /* 3 - Navigation and Workflows */,
 				0EE4DBF01FD5CFCB002A7494 /* 4 - Tables and Persistence */,
+				0EE4DC5C1FD5CFE5002A7494 /* 5 - Working With the Web */,
 			);
 			sourceTree = "<group>";
 		};
@@ -789,6 +821,157 @@
 			path = "Guided Project - List";
 			sourceTree = "<group>";
 		};
+		0EE4DC5C1FD5CFE5002A7494 /* 5 - Working With the Web */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC5D1FD5CFE5002A7494 /* 1 - Closures */,
+				0EE4DC601FD5CFE6002A7494 /* 2 - Extensions */,
+				0EE4DC631FD5CFE6002A7494 /* 3 - Animations */,
+				0EE4DC711FD5CFE6002A7494 /* 5 - WWW JSON Serialization */,
+				0EE4DC741FD5CFE6002A7494 /* 6 - WWW Concurrency */,
+				0EE4DC831FD5CFE6002A7494 /* Guided Project - Restaurant */,
+			);
+			path = "5 - Working With the Web";
+			sourceTree = "<group>";
+		};
+		0EE4DC5D1FD5CFE5002A7494 /* 1 - Closures */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC5E1FD5CFE5002A7494 /* lab */,
+			);
+			path = "1 - Closures";
+			sourceTree = "<group>";
+		};
+		0EE4DC5E1FD5CFE5002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC5F1FD5CFE5002A7494 /* Lab - Closures.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DC601FD5CFE6002A7494 /* 2 - Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC611FD5CFE6002A7494 /* lab */,
+			);
+			path = "2 - Extensions";
+			sourceTree = "<group>";
+		};
+		0EE4DC611FD5CFE6002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC621FD5CFE6002A7494 /* Lab - Extensions.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DC631FD5CFE6002A7494 /* 3 - Animations */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC641FD5CFE6002A7494 /* Icons */,
+			);
+			path = "3 - Animations";
+			sourceTree = "<group>";
+		};
+		0EE4DC641FD5CFE6002A7494 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC651FD5CFE6002A7494 /* forward.png */,
+				0EE4DC661FD5CFE6002A7494 /* forward@2x.png */,
+				0EE4DC671FD5CFE6002A7494 /* forward@3x.png */,
+				0EE4DC681FD5CFE6002A7494 /* pause.png */,
+				0EE4DC691FD5CFE6002A7494 /* pause@2x.png */,
+				0EE4DC6A1FD5CFE6002A7494 /* pause@3x.png */,
+				0EE4DC6B1FD5CFE6002A7494 /* play.png */,
+				0EE4DC6C1FD5CFE6002A7494 /* play@2x.png */,
+				0EE4DC6D1FD5CFE6002A7494 /* play@3x.png */,
+				0EE4DC6E1FD5CFE6002A7494 /* reverse.png */,
+				0EE4DC6F1FD5CFE6002A7494 /* reverse@2x.png */,
+				0EE4DC701FD5CFE6002A7494 /* reverse@3x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		0EE4DC711FD5CFE6002A7494 /* 5 - WWW JSON Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC721FD5CFE6002A7494 /* lab */,
+			);
+			path = "5 - WWW JSON Serialization";
+			sourceTree = "<group>";
+		};
+		0EE4DC721FD5CFE6002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC731FD5CFE6002A7494 /* iTunesSearch.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DC741FD5CFE6002A7494 /* 6 - WWW Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC751FD5CFE6002A7494 /* lab */,
+			);
+			path = "6 - WWW Concurrency";
+			sourceTree = "<group>";
+		};
+		0EE4DC751FD5CFE6002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC761FD5CFE6002A7494 /* iTunesSearch */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DC761FD5CFE6002A7494 /* iTunesSearch */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC771FD5CFE6002A7494 /* iTunesSearch */,
+				0EE4DC801FD5CFE6002A7494 /* iTunesSearch.xcodeproj */,
+			);
+			path = iTunesSearch;
+			sourceTree = "<group>";
+		};
+		0EE4DC771FD5CFE6002A7494 /* iTunesSearch */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC781FD5CFE6002A7494 /* AppDelegate.swift */,
+				0EE4DC791FD5CFE6002A7494 /* Assets.xcassets */,
+				0EE4DC7A1FD5CFE6002A7494 /* LaunchScreen.storyboard */,
+				0EE4DC7C1FD5CFE6002A7494 /* Info.plist */,
+				0EE4DC7D1FD5CFE6002A7494 /* iTunesSearch.playground */,
+				0EE4DC7E1FD5CFE6002A7494 /* Main.storyboard */,
+				0EE4DC7F1FD5CFE6002A7494 /* StoreItemListTableViewController.swift */,
+			);
+			path = iTunesSearch;
+			sourceTree = "<group>";
+		};
+		0EE4DC811FD5CFE6002A7494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC881FD5CFE6002A7494 /* iTunesSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EE4DC831FD5CFE6002A7494 /* Guided Project - Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC841FD5CFE6002A7494 /* Restaurant */,
+			);
+			path = "Guided Project - Restaurant";
+			sourceTree = "<group>";
+		};
+		0EE4DC841FD5CFE6002A7494 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC851FD5CFE6002A7494 /* OpenRestaurant.app */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
@@ -834,6 +1017,10 @@
 				{
 					ProductGroup = 0EE4DC2B1FD5CFCB002A7494 /* Products */;
 					ProjectRef = 0EE4DC2A1FD5CFCB002A7494 /* HomeFurniture.xcodeproj */;
+				},
+				{
+					ProductGroup = 0EE4DC811FD5CFE6002A7494 /* Products */;
+					ProjectRef = 0EE4DC801FD5CFE6002A7494 /* iTunesSearch.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -883,6 +1070,13 @@
 			fileType = wrapper.application;
 			path = HomeFurniture.app;
 			remoteRef = 0EE4DC5A1FD5CFCC002A7494 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EE4DC881FD5CFE6002A7494 /* iTunesSearch.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iTunesSearch.app;
+			remoteRef = 0EE4DC871FD5CFE6002A7494 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -982,6 +1176,14 @@
 				0EE4DC411FD5CFCB002A7494 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EE4DC7A1FD5CFE6002A7494 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE4DC7B1FD5CFE6002A7494 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
