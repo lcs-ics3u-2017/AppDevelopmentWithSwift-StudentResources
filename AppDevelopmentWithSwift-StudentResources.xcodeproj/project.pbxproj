@@ -171,6 +171,7 @@
 		0EE4DC7F1FD5CFE6002A7494 /* StoreItemListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemListTableViewController.swift; sourceTree = "<group>"; };
 		0EE4DC801FD5CFE6002A7494 /* iTunesSearch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = iTunesSearch.xcodeproj; sourceTree = "<group>"; };
 		0EE4DC851FD5CFE6002A7494 /* OpenRestaurant.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = OpenRestaurant.app; sourceTree = "<group>"; };
+		0EE4DC8B1FD5D003002A7494 /* AppCanvas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AppCanvas.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -182,6 +183,7 @@
 				0EE4DB661FD5CEC6002A7494 /* 3 - Navigation and Workflows */,
 				0EE4DBF01FD5CFCB002A7494 /* 4 - Tables and Persistence */,
 				0EE4DC5C1FD5CFE5002A7494 /* 5 - Working With the Web */,
+				0EE4DC891FD5D003002A7494 /* 6 - Prototyping and Planning */,
 			);
 			sourceTree = "<group>";
 		};
@@ -970,6 +972,22 @@
 				0EE4DC851FD5CFE6002A7494 /* OpenRestaurant.app */,
 			);
 			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		0EE4DC891FD5D003002A7494 /* 6 - Prototyping and Planning */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC8A1FD5D003002A7494 /* 4 - Project Planning */,
+			);
+			path = "6 - Prototyping and Planning";
+			sourceTree = "<group>";
+		};
+		0EE4DC8A1FD5D003002A7494 /* 4 - Project Planning */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DC8B1FD5D003002A7494 /* AppCanvas.pdf */,
+			);
+			path = "4 - Project Planning";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
