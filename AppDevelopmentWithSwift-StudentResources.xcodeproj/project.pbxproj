@@ -6,83 +6,14 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		0E14911B1FD5CCFF00A0DF16 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E14911A1FD5CCFF00A0DF16 /* main.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		0E1491151FD5CCFF00A0DF16 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		0E1491171FD5CCFF00A0DF16 /* AppDevelopmentWithSwift-StudentResources */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AppDevelopmentWithSwift-StudentResources"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E14911A1FD5CCFF00A0DF16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		0E1491141FD5CCFF00A0DF16 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
 		0E14910E1FD5CCFF00A0DF16 = {
 			isa = PBXGroup;
 			children = (
-				0E1491191FD5CCFF00A0DF16 /* AppDevelopmentWithSwift-StudentResources */,
-				0E1491181FD5CCFF00A0DF16 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		0E1491181FD5CCFF00A0DF16 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0E1491171FD5CCFF00A0DF16 /* AppDevelopmentWithSwift-StudentResources */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0E1491191FD5CCFF00A0DF16 /* AppDevelopmentWithSwift-StudentResources */ = {
-			isa = PBXGroup;
-			children = (
-				0E14911A1FD5CCFF00A0DF16 /* main.swift */,
-			);
-			path = "AppDevelopmentWithSwift-StudentResources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		0E1491161FD5CCFF00A0DF16 /* AppDevelopmentWithSwift-StudentResources */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0E14911E1FD5CCFF00A0DF16 /* Build configuration list for PBXNativeTarget "AppDevelopmentWithSwift-StudentResources" */;
-			buildPhases = (
-				0E1491131FD5CCFF00A0DF16 /* Sources */,
-				0E1491141FD5CCFF00A0DF16 /* Frameworks */,
-				0E1491151FD5CCFF00A0DF16 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "AppDevelopmentWithSwift-StudentResources";
-			productName = "AppDevelopmentWithSwift-StudentResources";
-			productReference = 0E1491171FD5CCFF00A0DF16 /* AppDevelopmentWithSwift-StudentResources */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0E14910F1FD5CCFF00A0DF16 /* Project object */ = {
@@ -91,12 +22,6 @@
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Gordon, Russell";
-				TargetAttributes = {
-					0E1491161FD5CCFF00A0DF16 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 0E1491121FD5CCFF00A0DF16 /* Build configuration list for PBXProject "AppDevelopmentWithSwift-StudentResources" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -106,25 +31,13 @@
 				en,
 			);
 			mainGroup = 0E14910E1FD5CCFF00A0DF16;
-			productRefGroup = 0E1491181FD5CCFF00A0DF16 /* Products */;
+			productRefGroup = 0E14910E1FD5CCFF00A0DF16;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E1491161FD5CCFF00A0DF16 /* AppDevelopmentWithSwift-StudentResources */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0E1491131FD5CCFF00A0DF16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E14911B1FD5CCFF00A0DF16 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		0E14911C1FD5CCFF00A0DF16 /* Debug */ = {
@@ -233,24 +146,6 @@
 			};
 			name = Release;
 		};
-		0E14911F1FD5CCFF00A0DF16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		0E1491201FD5CCFF00A0DF16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -259,15 +154,6 @@
 			buildConfigurations = (
 				0E14911C1FD5CCFF00A0DF16 /* Debug */,
 				0E14911D1FD5CCFF00A0DF16 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0E14911E1FD5CCFF00A0DF16 /* Build configuration list for PBXNativeTarget "AppDevelopmentWithSwift-StudentResources" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0E14911F1FD5CCFF00A0DF16 /* Debug */,
-				0E1491201FD5CCFF00A0DF16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
