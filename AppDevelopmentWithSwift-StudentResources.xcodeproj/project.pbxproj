@@ -7,15 +7,153 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		0E1491211FD5CD4800A0DF16 /* 1 - Getting Started */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1 - Getting Started"; sourceTree = "<group>"; };
+		0EE4DB2E1FD5CDD7002A7494 /* Lab - Strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Strings.playground"; sourceTree = "<group>"; };
+		0EE4DB311FD5CDD7002A7494 /* Lab - Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Functions.playground"; sourceTree = "<group>"; };
+		0EE4DB341FD5CDD7002A7494 /* Lab - Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Structures.playground"; sourceTree = "<group>"; };
+		0EE4DB371FD5CDD7002A7494 /* Lab - Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Classes.playground"; sourceTree = "<group>"; };
+		0EE4DB3A1FD5CDD7002A7494 /* Lab - Collections.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Collections.playground"; sourceTree = "<group>"; };
+		0EE4DB3D1FD5CDD7002A7494 /* Lab - Loops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lab - Loops.playground"; sourceTree = "<group>"; };
+		0EE4DB3F1FD5CDD7002A7494 /* Tree 0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tree 0.pdf"; sourceTree = "<group>"; };
+		0EE4DB401FD5CDD7002A7494 /* Tree 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tree 1.pdf"; sourceTree = "<group>"; };
+		0EE4DB411FD5CDD7002A7494 /* Tree 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tree 2.pdf"; sourceTree = "<group>"; };
+		0EE4DB421FD5CDD7002A7494 /* Tree 3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tree 3.pdf"; sourceTree = "<group>"; };
+		0EE4DB431FD5CDD7002A7494 /* Tree 4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tree 4.pdf"; sourceTree = "<group>"; };
+		0EE4DB441FD5CDD7002A7494 /* Tree 5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tree 5.pdf"; sourceTree = "<group>"; };
+		0EE4DB451FD5CDD7002A7494 /* Tree 6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tree 6.pdf"; sourceTree = "<group>"; };
+		0EE4DB461FD5CDD7002A7494 /* Tree 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tree 7.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		0E14910E1FD5CCFF00A0DF16 = {
 			isa = PBXGroup;
 			children = (
-				0E1491211FD5CD4800A0DF16 /* 1 - Getting Started */,
+				0EE4DB2B1FD5CDD7002A7494 /* 2 - Introduction to UIKit */,
 			);
+			sourceTree = "<group>";
+		};
+		0EE4DB2B1FD5CDD7002A7494 /* 2 - Introduction to UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB2C1FD5CDD7002A7494 /* 1 - Strings */,
+				0EE4DB2F1FD5CDD7002A7494 /* 2 - Functions */,
+				0EE4DB321FD5CDD7002A7494 /* 3 - Structures */,
+				0EE4DB351FD5CDD7002A7494 /* 4 - Classes and Inheritance */,
+				0EE4DB381FD5CDD7002A7494 /* 5 - Collections */,
+				0EE4DB3B1FD5CDD7002A7494 /* 6 - Loops */,
+				0EE4DB3E1FD5CDD7002A7494 /* Guided Project - Apple Pie */,
+			);
+			path = "2 - Introduction to UIKit";
+			sourceTree = "<group>";
+		};
+		0EE4DB2C1FD5CDD7002A7494 /* 1 - Strings */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB2D1FD5CDD7002A7494 /* lab */,
+			);
+			path = "1 - Strings";
+			sourceTree = "<group>";
+		};
+		0EE4DB2D1FD5CDD7002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB2E1FD5CDD7002A7494 /* Lab - Strings.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB2F1FD5CDD7002A7494 /* 2 - Functions */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB301FD5CDD7002A7494 /* lab */,
+			);
+			path = "2 - Functions";
+			sourceTree = "<group>";
+		};
+		0EE4DB301FD5CDD7002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB311FD5CDD7002A7494 /* Lab - Functions.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB321FD5CDD7002A7494 /* 3 - Structures */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB331FD5CDD7002A7494 /* lab */,
+			);
+			path = "3 - Structures";
+			sourceTree = "<group>";
+		};
+		0EE4DB331FD5CDD7002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB341FD5CDD7002A7494 /* Lab - Structures.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB351FD5CDD7002A7494 /* 4 - Classes and Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB361FD5CDD7002A7494 /* lab */,
+			);
+			path = "4 - Classes and Inheritance";
+			sourceTree = "<group>";
+		};
+		0EE4DB361FD5CDD7002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB371FD5CDD7002A7494 /* Lab - Classes.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB381FD5CDD7002A7494 /* 5 - Collections */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB391FD5CDD7002A7494 /* lab */,
+			);
+			path = "5 - Collections";
+			sourceTree = "<group>";
+		};
+		0EE4DB391FD5CDD7002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB3A1FD5CDD7002A7494 /* Lab - Collections.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB3B1FD5CDD7002A7494 /* 6 - Loops */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB3C1FD5CDD7002A7494 /* lab */,
+			);
+			path = "6 - Loops";
+			sourceTree = "<group>";
+		};
+		0EE4DB3C1FD5CDD7002A7494 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB3D1FD5CDD7002A7494 /* Lab - Loops.playground */,
+			);
+			path = lab;
+			sourceTree = "<group>";
+		};
+		0EE4DB3E1FD5CDD7002A7494 /* Guided Project - Apple Pie */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4DB3F1FD5CDD7002A7494 /* Tree 0.pdf */,
+				0EE4DB401FD5CDD7002A7494 /* Tree 1.pdf */,
+				0EE4DB411FD5CDD7002A7494 /* Tree 2.pdf */,
+				0EE4DB421FD5CDD7002A7494 /* Tree 3.pdf */,
+				0EE4DB431FD5CDD7002A7494 /* Tree 4.pdf */,
+				0EE4DB441FD5CDD7002A7494 /* Tree 5.pdf */,
+				0EE4DB451FD5CDD7002A7494 /* Tree 6.pdf */,
+				0EE4DB461FD5CDD7002A7494 /* Tree 7.pdf */,
+			);
+			path = "Guided Project - Apple Pie";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
